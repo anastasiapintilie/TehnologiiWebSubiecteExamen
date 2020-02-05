@@ -1,0 +1,11 @@
+{
+    
+        
+      
+     "name":"nume 1",
+        "description":"ceva descriere",
+        "sizes":[1,2,2,3,4],
+        "inventory":[{"supplierName":"nume supplier 1", "quantity":2,"aquisitionPrice":23},{"supplierName":"nume supplier 1", "quantity":2,"aquisitionPrice":23}]
+        
+    
+}
