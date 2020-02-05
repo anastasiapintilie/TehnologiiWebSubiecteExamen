@@ -1,0 +1,5 @@
+{
+    "invoiceNumber":2,
+    "invoiceSeries":"caca",
+    "invoiceItems":[{"productName":"coca-cola","quantity":2,"productPrice":34}]
+}

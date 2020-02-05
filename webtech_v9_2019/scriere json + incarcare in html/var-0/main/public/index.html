@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="myDiv"></div>
+    <script>
+        async function readFromJson()
+        {
+            var response = await fetch("invoice.json");
+            var data = await response.json();
+            return data
+        }
+        
+        async function incarcaInDiv()
+        {
+         var myDiv=document.getElementById("myDiv");
+         var data= await readFromJson();
+         console.log(" data e"+data);
+         myDiv.innerHTML=JSON.stringify(data)
+        }
+        
+        window.onload=()=>{
+            incarcaInDiv();
+        }
+    </script>
+    
+</body>
+</html>
