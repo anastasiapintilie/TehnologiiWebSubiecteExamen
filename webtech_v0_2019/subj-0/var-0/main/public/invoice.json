@@ -1,0 +1,19 @@
+{
+"CEVA":{ 
+    "invoiceNumber":2,
+    "invoiceSeries":"cacat",
+    "invoiceItems":[{"productName":"milka","productPrice":2,"quantity":2},{"productName":"sprite","productPrice":28,"quantity":112}]
+    
+},
+    
+ "ALTCEVA":{ 
+     "invoiceNumber":2,
+    "invoiceSeries":"cacat",
+    "invoiceItems":[{"productName":"milka","productPrice":2,"quantity":2},{"productName":"sprite","productPrice":28,"quantity":112}]
+     
+ }
+    
+   
+    
+
+}
